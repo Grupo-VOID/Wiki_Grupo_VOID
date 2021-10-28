@@ -1,0 +1,42 @@
+ul {
+    margin: 0px;
+    padding: 0px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.button {
+    list-style: none;
+    text-align: center;
+    height: 50px;
+    border: 1px solid rgb(252, 2, 2);
+
+    flex: 1px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.button:hover {
+    border: 1px solid black;
+    transition: 0.5s;
+    background-color: red;
+    color: rgb(2, 2, 2);
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+body {
+    background-color: rgb(2, 2, 2);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
