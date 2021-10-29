@@ -40,3 +40,10 @@ body {
     color: white;
     font-family: 'Roboto', sans-serif;
 }
+.thumb{
+    width: 50px;
+}
+.thumb > img {
+    width: auto;
+    height: 40vh;
+}
