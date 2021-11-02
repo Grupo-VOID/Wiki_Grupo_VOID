@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wiki Grupo VOID</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="wikiVoid.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,53 +13,115 @@
 </head>
 <body>
     <header class="header">
-        <ul style="list-style: none; display: flex; justify-content: space-around;">
-            <a href="#" class="button"><li>Portada</li></a>
-            <a href="#" class="button"><li>Más vistos</li></a>
-            <a href="#" class="button"><li>Contacto</li></a>
-            <a href="#" class="button"><li>Donar</li></a>
-        </ul>
+        <div class="header__logo">
+            <img src="https://avatars.githubusercontent.com/u/89170331?s=400&u=ffaae0f24667c640a00c4d8423a1363faf59e18e&v=4" alt="">
+            <p>WikiVoid</p>
+        </div>
+        <div class="header__menu">
+            <img src="img/menu.png" alt="">
+        </div>
     </header>
+    <nav class="panel_superior">
+        <ul>
+            <a href="index.html" class="button">
+                <li>Portada</li>
+            </a>
+            <a href="#" class="button">
+                <li>Más vistos</li>
+            </a>
+            <a href="#" class="button">
+                <li>Contacto</li>
+            </a>
+            <a href="#" class="button">
+                <li>Donar</li>
+            </a>
+        </ul>
+    </nav>
     <main>
-        <h1>Las 10 series de Netflix mas vistas</h1>
-        <p>Estas son las 10 series mas vista en la aplicacion</p>
-        <table border="1">
-            <tr>
-                <th>series</th>
-            </tr>
-            <tr>
-                <td>
-                    <a href="#">La casa de papel</a>
-                </td>
-                <td>Una banda organizada de ladrones se propone cometer el atraco del siglo en la Fábrica Nacional de Moneda y Timbre. Cinco meses de preparación quedarán reducidos a once días para poder llevar a cabo con éxito el gran golpe.</td>
-                <td class="thumb">
-                    <img src="img/img1.jpg" alt="">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="#">El juego del calamar</a>
-                </td>
-                <td>Cientos de personas con dificultades económicas aceptan una extraña invitación a un juego de supervivencia. Les espera un premio millonario, pero hay mucho en juego.</td>
-                <td class="thumb">
-                    <img src="img/img2.jpg" alt="">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="#">Game of thrones</a>
-                </td>
-                <td>En el continente de Poniente se produjo una guerra civil devastadora que expulsó del trono a los Targaryen y convirtió a Robert Baratheon (Mark Addy) en rey de los Siete Reinos. Tras la muerte de Baratheon, varias familias nobles luchan por el poder del Trono De Hierro del territorio.</td>
-                <td class="thumb">
-                    <img src="img/img3.jpg" alt="">
-                </td>
-            </tr>
-        </table>
+        <h1 class="article_title">Las 10 series de Netflix mas vistas</h1>
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum libero, saepe excepturi numquam placeat ab. Quibusdam voluptas labore esse magnam quasi nostrum cupiditate consectetur omnis. Earum enim veniam quos labore!</p>
+        <div class="table_top_series">
+            <table>
+                <thead>
+                    <th>Nombre</th>
+                    <th colspan="2">Descripción</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="wiki/Casa_de_papel.html">La Casa de Papel</a>
+                        </td>
+                        <td>Una banda organizada de ladrones se propone cometer el atraco del siglo en la Fábrica
+                            Nacional
+                            de
+                            Moneda y Timbre. Cinco meses de preparación quedarán reducidos a once días para poder llevar
+                            a
+                            cabo
+                            con éxito el gran golpe.</td>
+                        <td class="thumb">
+                            <img src="img/img1.jpg" alt="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="wiki/Juego_del_calamar.html">El Juego del Calamar</a>
+                        </td>
+                        <td>Cientos de personas con dificultades económicas aceptan una extraña invitación a un juego de
+                            supervivencia. Les espera un premio millonario, pero hay mucho en juego.</td>
+                        <td class="thumb">
+                            <img src="img/img2.jpg" alt="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="wiki/GoT.html">Game of Thrones</a>
+                        </td>
+                        <td>En el continente de Poniente se produjo una guerra civil devastadora que expulsó del trono a
+                            los
+                            Targaryen y convirtió a Robert Baratheon (Mark Addy) en rey de los Siete Reinos. Tras la
+                            muerte
+                            de
+                            Baratheon, varias familias nobles luchan por el poder del Trono De Hierro del territorio.
+                        </td>
+                        <td class="thumb">
+                            <img src="img/img3.jpg" alt="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#">Serie 4</a>
+                        </td>
+                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor accusamus voluptatibus hic,
+                            facere et error enim blanditiis quasi sapiente repellendus aspernatur ipsam a veritatis
+                            corporis soluta. Sed fuga dicta est!
+                        </td>
+                        <td class="thumb">
+                            <img src="https://picsum.photos/id/1067/600/400" alt="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="#">Serie 5</a>
+                        </td>
+                        <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam architecto repellendus ad reiciendis nisi dolores. Eligendi numquam laudantium sapiente, id exercitationem, deserunt nobis laborum earum eum incidunt, tempore maxime adipisci.
+                        </td>
+                        <td class="thumb">
+                            <img src="https://picsum.photos/id/839/600/400" alt="" height="500" width="200">
+                        </td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+
     </main>
-    <footer style="display: flex; justify-content: space-around;">
-        <a href="/">Términos de uso</a>
-        <a href="/">Declaración de privacidad</a>
-        <a href="/">Centro de ayuda</a>
+    <br><hr>
+    <footer>
+        <a href="#">Términos de uso</a>
+        <a href="#">Declaración de privacidad</a>
+        <a href="#">Centro de ayuda</a>
     </footer>
 </body>
+
 </html>
